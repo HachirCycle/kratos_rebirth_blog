@@ -1,6 +1,6 @@
 # Global 全局配置
 site_analytics: ''
-hoster: <a href="https://github.io" target="_blank">Github Pages</a>
+hoster: <a href="https://github.com/HachirCycle/kratos_rebirth_blog" target="_blank">Github Pages</a>
 site_logo: ''
 snow: false
 click_animate_js: 'candy'
@@ -63,8 +63,8 @@ menu:
   friends: /friends/
   sites:
     submenu: true
-    author: https://candinya.com
-    project: https://github.com/Candinya/Kratos-Rebirth
+    author: https://hachir-cycle-github-io.vercel.app
+    project: https://github.com/HachirCycle/kratos_rebirth_blog
 
 label:
   index: <i class="fa fa-home"></i>首页
@@ -128,7 +128,7 @@ valine:
 
 # Twikoo [Twikoo](https://twikoo.js.org) 评论相关
 twikoo:
-  env_id: https://twikoo-comments-phi.vercel.app/
+  env_id: https://twikoo-comments-phi.vercel.app
 
 # Waline [Waline](https://waline.js.org) 评论相关
 ## 不仅限于以下内容，您可以参照 Waline的 [前端配置文档](https://waline.js.org/reference/client.html) 设置您需要的配置项
@@ -144,10 +144,10 @@ waline:
 gitalk:
   clientID: 'GitHub Application Client ID'
   clientSecret: 'GitHub Application Client Secret'
-  repo: 'Kratos-Rebirth-Demo'
-  owner: 'Candinya'
+  repo: 'kratos_rebirth_blog'
+  owner: Hachir Cycle
   admin: 
-    - 'Candinya'
+    - 'Hachir'
   distractionFreeMode: false
 
 #默认不计算hash 但是如果id过长(默认为url_for(page.path))会导致创建评论区失败 见[#139](https://github.com/Candinya/Kratos-Rebirth/issues/139)
@@ -158,8 +158,8 @@ gitalk_id_hasher: false
 ## 不仅限于以下内容，您可以参照 [Gitment 文档](https://github.com/imsun/gitment#methods) 设置您需要的配置项
 ## id 会在页面自动生成，不必加入
 gitment:
-  owner: 'Candinya'
-  repo: 'Kratos-Rebirth-Demo'
+  owner: 'Hachir Cycle'
+  repo: 'kratos_rebirth_blog'
   oauth:
     client_id: 'Your client ID'
     client_secret: 'Your client secret'

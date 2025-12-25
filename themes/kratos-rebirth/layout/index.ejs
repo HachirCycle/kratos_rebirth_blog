@@ -307,3 +307,28 @@
         <% } %>
     </div>
 <% } %>
+<style>
+  /* 覆盖默认样式，把看板娘移到右边 */
+  #waifu {
+    left: auto !important;       /* 取消靠左 */
+    right: 10px !important;      /* 改为靠右，留10px缝隙 */
+    bottom: 0 !important;        /* 靠底 */
+  }
+
+  /* 调整工具栏按钮的位置，防止被屏幕边缘切掉 */
+  #waifu-tool {
+    right: 0 !important;         /* 按钮也靠右对齐 */
+    left: auto !important;
+  }
+
+  /* (可选) 如果看板娘挡住了 Kratos 主题右下角的“返回顶部”按钮 */
+  /* 你可以把看板娘稍微往左挪一点，或者把返回顶部按钮挪走 */
+  /* 这里示范把看板娘稍微往左挪一点，避开返回顶部按钮 */
+  /*
+  #waifu {
+    right: 60px !important; 
+  }
+  */
+</style>
+
+<script src="https://fastly.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
